@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F5D2013B8108B9D7AF8AEB813D7FEFE34F7FFB23",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F5D2013B8108B9D7AF8AEB813D7FEFE34F7FFB23" : 0,
+    "C7C6F7063BDDA3DE8369DA328451FE1D0A969DD5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5C05EDE4-6F8C-4B43-A31B-0B0C66F7D093",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F5D2013B8108B9D7AF8AEB813D7FEFE34F7FFB23" : "jiraconnect-apple\/",
+    "C7C6F7063BDDA3DE8369DA328451FE1D0A969DD5" : "..\/GitHub\/plcrashreporter"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JIRAMobileConnect",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JIRAMobileConnect.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/plausiblelabs\/plcrashreporter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C7C6F7063BDDA3DE8369DA328451FE1D0A969DD5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:atlassian\/jiraconnect-apple.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5D2013B8108B9D7AF8AEB813D7FEFE34F7FFB23"
+    }
+  ]
+}
