@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   ]
   s.frameworks = "CFNetwork", "SystemConfiguration", "MobileCoreServices", "CoreGraphics", "AVFoundation", "CoreLocation"
   s.libraries = "sqlite3"
-  s.vendored_frameworks = "JIRAMobileConnect/JMCClasses/Libraries/CrashReporter.framework"
+  s.vendored_frameworks = "JIRAMobileConnect/JMCClasses/Libraries/CrashReporter.xcframework"
 
   s.requires_arc = true
 
