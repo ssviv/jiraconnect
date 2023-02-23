@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.authors          = { "Nick Pellow" => "http://twitter.com/niick", "Thomas Dohmke" => "http://twitter.com/ashtom", "Stefan Saasen" => "http://twitter.com/stefansaasen", "Shihab Hamid" => "http://twitter.com/shihabhamid", "Erik Romijn" => "http://twitter.com/erikpub", "Bindu Wavell" => "http://twitter.com/binduwavell", "Theodora Tse" => "" }
 
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://bitbucket.org/atlassian/jiraconnect-apple.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/ssviv/jiraconnect.git" }
   s.source_files = [
     "JIRAMobileConnect/JMCClasses/Base/**/*.{h,m,mm}",
     "JIRAMobileConnect/JMCClasses/Core/**/*.{h,m,mm}"
