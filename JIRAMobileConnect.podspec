@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = "Apache License, Version 2.0"
   s.authors          = { "Nick Pellow" => "http://twitter.com/niick", "Thomas Dohmke" => "http://twitter.com/ashtom", "Stefan Saasen" => "http://twitter.com/stefansaasen", "Shihab Hamid" => "http://twitter.com/shihabhamid", "Erik Romijn" => "http://twitter.com/erikpub", "Bindu Wavell" => "http://twitter.com/binduwavell", "Theodora Tse" => "" }
 
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "15.0"
   s.source       = { :git => "https://github.com/ssviv/jiraconnect.git" }
   s.source_files = [
     "JIRAMobileConnect/JMCClasses/Base/**/*.{h,m,mm}",
@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
     "JIRAMobileConnect/JMCClasses/Core/sketch/**/*.{h}",
     "JIRAMobileConnect/JMCClasses/Core/transport/**/*.{h}",
     "JIRAMobileConnect/JMCClasses/Core/model/**/*.{h}",
+    "JIRAMobileConnect/JMCClasses/Core/inbox/**/*.{h}",
     "JIRAMobileConnect/JMCClasses/Core/queue/**/*.{h}",
     "JIRAMobileConnect/JMCClasses/Core/audio/**/*.{h}"
   ]
