@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -167,6 +167,7 @@
 		289C0A2B1BA9D9940083F87D /* notsent.png in Resources */ = {isa = PBXBuildFile; fileRef = 289C098E1BA9D9940083F87D /* notsent.png */; };
 		289C0A2C1BA9D9940083F87D /* notsent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 289C098F1BA9D9940083F87D /* notsent@2x.png */; };
 		289C0A2E1BA9E2740083F87D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 289C0A2D1BA9E2740083F87D /* libsqlite3.tbd */; };
+		6A33FEDE2AC1C81000EF41A0 /* CrashReporter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A33FEDD2AC1C81000EF41A0 /* CrashReporter.xcframework */; };
 		6A5FE97A29A7AC7C003DF6D1 /* CrashReporter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5FE97929A7AC7C003DF6D1 /* CrashReporter.xcframework */; };
 /* End PBXBuildFile section */
 
@@ -344,8 +345,8 @@
 		289C098E1BA9D9940083F87D /* notsent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notsent.png; sourceTree = "<group>"; };
 		289C098F1BA9D9940083F87D /* notsent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notsent@2x.png"; sourceTree = "<group>"; };
 		289C0A2D1BA9E2740083F87D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6A33FEDD2AC1C81000EF41A0 /* CrashReporter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CrashReporter.xcframework; sourceTree = "<group>"; };
 		6A5FE97929A7AC7C003DF6D1 /* CrashReporter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CrashReporter.xcframework; path = JIRAMobileConnect/JMCClasses/Libraries/CrashReporter.xcframework; sourceTree = "<group>"; };
-		9F280A231BAA2E9A00B4A400 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -355,6 +356,7 @@
 			files = (
 				6A5FE97A29A7AC7C003DF6D1 /* CrashReporter.xcframework in Frameworks */,
 				289C0A2E1BA9E2740083F87D /* libsqlite3.tbd in Frameworks */,
+				6A33FEDE2AC1C81000EF41A0 /* CrashReporter.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,7 +721,7 @@
 		9F280A1F1BAA292200B4A400 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				9F280A231BAA2E9A00B4A400 /* CrashReporter.framework */,
+				6A33FEDD2AC1C81000EF41A0 /* CrashReporter.xcframework */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -1047,7 +1049,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1088,7 +1090,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1111,7 +1113,7 @@
 				);
 				INFOPLIST_FILE = JIRAMobileConnect/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1137,7 +1139,7 @@
 				);
 				INFOPLIST_FILE = JIRAMobileConnect/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
